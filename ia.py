@@ -2,7 +2,7 @@ import os
 from groq import Groq
 
 
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = "Chave API"
 
 client = Groq (
     api_key=os.environ.get("GROQ_API_KEY"),
